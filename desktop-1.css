@@ -1,0 +1,198 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}.desktop-1-haV {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/rectangle-1-bg.png');
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #ebebeb;
+}
+.desktop-1-haV .auto-group-kf41-kYm {
+  box-sizing: border-box;
+  padding: 3.9rem 2.7rem 44rem 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.desktop-1-haV .auto-group-kf41-kYm .auto-group-8j37-B1o {
+  margin-bottom: 17.4rem;
+  box-sizing: border-box;
+  padding: 1.1rem 0.6rem 1rem 0.6rem;
+  width: 100%;
+  height: 10.5rem;
+  background-color: #d9d9d9;
+  flex-shrink: 0;
+}
+.desktop-1-haV .auto-group-kf41-kYm .auto-group-8j37-B1o .frame-1-tS1 {
+  margin-right: 101.5rem;
+  width: 36.6rem;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.desktop-1-haV .auto-group-kf41-kYm .auto-group-8j37-B1o .frame-1-tS1 .logo2-1-SCd {
+  width: 41rem;
+  height: 8.5rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.desktop-1-haV .auto-group-kf41-kYm .local-talents-global-impact-YmT {
+  margin: 0rem 0rem 1.3rem 16.6rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.0875;
+  letter-spacing: 0.14rem;
+  color: #615ef1;
+  font-family: Archivo Black, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.desktop-1-haV .auto-group-kf41-kYm .hire-students-now-k6q {
+  margin-left: 16.6rem;
+  font-size: 6.4rem;
+  font-weight: 400;
+  line-height: 1.0875;
+  letter-spacing: 0.512rem;
+  color: #6c4acf;
+  font-family: Archivo Black, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.desktop-1-haV .auto-group-955o-eT7 {
+  box-sizing: border-box;
+  padding: 1.6rem 102.8rem 1.6rem 69.6rem;
+  width: 100%;
+  height: 25.1rem;
+  display: flex;
+  align-items: flex-start;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/image2024-02-11095858265-1-bg.png');
+  flex-shrink: 0;
+}
+.desktop-1-haV .auto-group-955o-eT7 .auto-group-nygy-kW9 {
+  margin-right: 45.1rem;
+  width: 47.4rem;
+  height: 10.5rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.desktop-1-haV .auto-group-955o-eT7 .auto-group-nygy-kW9 .empowering-future-one-gig-at-a-time-Uh3 {
+  width: 44.8rem;
+  height: 3.7rem;
+  position: absolute;
+  left: 2.6rem;
+  top: 6.8rem;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.525;
+  color: #000000;
+  font-family: Bodoni Moda, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.desktop-1-haV .auto-group-955o-eT7 .auto-group-nygy-kW9 .campearn-ZiV {
+  width: 28.3rem;
+  height: 7.4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 1.525;
+  color: #37353d;
+  font-family: Bodoni Moda, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.desktop-1-haV .auto-group-955o-eT7 .image2024-02-11101327616-1-HPb {
+  width: 44.9rem;
+  height: 12.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.top-buttons{
+  width: 80;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+.top-buttons ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+.readyto {
+  color:rgb(42, 50, 116);
+  display: block;
+    width: 100px;
+    margin: 0 auto;
+    cursor: pointer;
+    position: absolute;
+            top: 50%; /* Center the button vertically */
+            left: 50%; /* Center the button horizontally */
+            transform: translate(-50%, -50%);
+            padding: 15px 32px;
+  background-color: rgb(205, 218, 232);
+  width: 300px;
+  height: 55px;
+  font-size: 17px;
+  border-radius: 10px;
+  border-color: rgb(33, 48, 60);
+  border-style: solid;
+  transition: filter 0.3s;
+}
+.readyto:hover{
+  filter: invert(0.2);
+}
+footer {
+  background-color: #ccbbaa;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1400px;
+}
+
+footer div {
+  text-align: left;
+  max-width: 400px; /* Adjust this value to widen or narrow each section */
+}
+
+footer h2 {
+  margin-bottom: 10px;
+}
+
+footer p {
+  margin: 5px 0;
+}

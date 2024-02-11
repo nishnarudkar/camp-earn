@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
+    <title>Login</title>
     <style>
         /* Basic CSS styles for the form */
-        body {background-image: url('logo.jpg') ;
+        body {
+            background-image:url('logo.jpg') ;
             background-repeat: no-repeat;
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
@@ -26,7 +27,6 @@
         header {
             height: 50px;
         }
-        
         .container {
             width: 300px;
             margin: 0 auto;
@@ -35,55 +35,54 @@
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
             margin-top: 100px;
+            opacity: 0.9;
         }
         h2 {
             text-align: center;
         }
         input[type="text"],
-        input[type="email"],
         input[type="password"],
         input[type="submit"] {
             width: 100%;
             padding: 10px;
             margin: 5px 0;
             border: 1px solid #ccc;
-            border-radius: 8px;
+            border-radius: 4px;
             box-sizing: border-box;
         }
         input[type="submit"] {
             background-color: #ffd500;
             border-style: solid;
             border-color: black;
-            color: rgb(0, 0, 0);
+            color: black;
             cursor: pointer;
         }
         input[type="submit"]:hover {
             background-color: #ffd500;
         }
+
+        /* CSS styles for the link */
+        a {
+             /* Remove underline */
+            color: black; /* Set color to black */
+        }
     </style>
 </head>
 <body>
-
+    <header> </header>
 <div class="container">
-    <h2>Sign Up</h2>
-    <form action="signup.php" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        
-        <label for="phone number">Phone number:</label>
-        <input type="text" id="phone number"  maxlength ="10" pattern="[0-9]" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');"  required>
-
+    <h2>Login</h2>
+    <form action="login.php" method="POST">
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
+        <input type="text" id="email" name="email" required>
         
         <label for="password">Password:</label>
         <input type="password" id="password" name="password" required>
         
-        <label for="confirm_password">Confirm Password:</label>
-        <input type="password" id="confirm_password" name="confirm_password" required>
-        
-        <a href="desktop-2.html"><button type="button"><span></span>submit</button></a>
+        <a href=""><button type="button"><span></span>submit</button></a>
     </form>
+    <h5>forgot password?</h5>
+    <a href="newacc2.html" target="_blank">create a new account</a>
 </div>
 
 </body>
